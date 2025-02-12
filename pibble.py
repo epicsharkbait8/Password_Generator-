@@ -6,8 +6,8 @@ def random_character():
     choices = string.ascii_letters + string.digits + string.punctuation
     return random.choice(choices)
 
-passwordLength = 12
-
+passwordLength = input("how longa da passworda?")
+passwordLength = int(passwordLength)
 
 def generate_strong_password():
     password = ""
